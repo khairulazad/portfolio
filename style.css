@@ -1,0 +1,619 @@
+html body{
+  width: 100%;  
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(250, 240, 240);
+}
+  
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+  
+body p{
+  line-height: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body h1, h2, h3, h4, h5, h6{
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.container{
+  width: 89%;
+  margin: 0 auto;
+}
+
+/** Personal Section Starts **/
+
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.logo{
+  font-family: 'Grenze Gotisch', cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.nav-btn button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 24px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.all-nav {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 0.7rem 0 0.7rem 0;
+
+}
+
+.nav-ul {
+width: 100%;
+ 
+}
+
+#sh_ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+
+.personal-sec{
+  background-color: #D5C455;
+}
+
+#sh_ul a {
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  color: white;
+  margin: 0 0.6rem;
+  border-radius: 7px;
+}
+
+
+#sh_ul li {
+  list-style: none;
+  position: relative;
+  
+}
+
+#sh_ul a:hover{
+  background-color: #D5C455;
+}
+
+#toggleicon:hover{
+  cursor: pointer;
+}
+
+#toggleicon{
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+  color: white;
+}
+
+
+#toggleicon{
+  display: none;
+}
+
+/** Navigation Ends Here **/
+.personal-sec {
+  width: 100%;
+  background-color: #4c4b45;
+  padding: 7rem 0 5rem 0;
+  display: flex;
+ 
+}
+
+.personal-mid{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.personal-mid .pic {
+  width: 45%;
+}
+
+.personal-mid .pic img {
+  width: 60%;
+
+  
+  border-radius: 25px;
+ 
+}
+
+.personal-mid .info {
+  width: 56%;
+  text-align: center;
+}
+
+
+/** My Details Section Starts **/
+
+.my-details h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.more-details h3 {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+
+.details-parent {
+  display: flex;
+  justify-content: space-between;
+  text-align: initial;
+  margin-top: 7%;
+}
+
+.details-parent .left h4 {
+  font-weight: 400;
+  color: white;
+}
+
+.details-parent .left span {
+  font-weight: 600;
+}
+
+.left {
+  width: 49%;
+}
+
+.more-details {
+  
+  margin-top: 5%;
+}
+
+/** My Details Section Ends **/
+
+/** Personal Section Ends **/
+
+
+/** Experience Section **/
+
+.work-experience{
+  padding: 3rem 0;
+  background-color: #ddd;
+  color: #333;
+}
+
+.work-experience .experties h2{
+
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.work-experience .meter span{
+  font-weight: 600;
+  color: #5a5747;
+}
+
+.work-experience .meter h4{
+  font-weight: 600;
+}
+
+.meter {
+  margin: 1.2rem 0;
+}
+
+.color-parent {
+  height: 2vh;
+  background-color: rgb(122, 101, 101);
+  border-radius: 10px;
+}
+
+.color-child {
+  height: 100%;
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+  
+.color-parent .cc1{
+  width: 85%;
+}
+
+.color-parent .cc2{
+  width: 90%;
+  
+}
+
+.color-parent .cc3{
+  width: 70%;
+  
+}
+
+.color-parent .ccSass{
+  width: 100%;
+}
+
+.color-parent .cc4{
+  width: 30%;
+  
+}
+
+.color-parent .cc5{
+  width: 50%;
+  
+}
+
+/** Experience Finished **/
+
+/** Sample Section Starts **/
+
+.sample{
+  padding: 3rem 0;
+  
+}
+
+.sample h2{
+  font-size: 1.5rem;
+  color: #181711;
+  font-weight: 500;
+}
+
+.sampleRaw{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.sampleRaw .main{
+  width: 48%;
+  padding: 4%;
+  background-color: brown;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.sampleRaw .main:hover{
+  cursor: pointer;
+}
+
+.sampleRaw .main:hover a{
+  
+  color: bisque;
+  background-color: #333;
+  transform: translateY(7px);
+}
+
+.layout-link {
+  margin-top: 2.5rem;
+}
+
+.sampleRaw .pic-one{
+  background-image: url(images/phaseshift.png);
+}
+
+.sampleRaw .pic-two{
+  background-image: url(images/projection.png);
+}
+
+.sampleRaw .pic-three{
+  background-image: url(images/lava-third.png);
+}
+
+.sampleRaw .pic-four{
+  background-image: url(images/brigate.png);
+}
+
+.pic-five{
+  background-image: url(images/branch-screen-shot.png);
+}
+
+.pic-six{
+  background-image: url(images/yoga-screen-shot.png);
+}
+
+.sampleRaw .main .layout-pic{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top c;
+  padding: 50%;
+  border-radius: 20px;
+}
+
+
+.layout-link a {
+  padding: 0.5rem 1.6rem;
+  background-color: bisque;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+/** Footer Starts Here **/
+
+footer{
+  padding: 3rem 0;
+  background-color: rgb(48, 43, 43);
+  color: wheat;
+}
+
+.footer-mid .social-parent{
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer-mid h3{
+  font-weight: 500;
+}
+
+.footer-mid ul{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.9rem;
+}
+
+.social {
+  width: 60%;
+  text-align: center;
+}
+
+.footer-mid ul li{
+  list-style: none;
+}
+
+.footer-mid ul li a{
+  text-decoration: none;
+  color: wheat;
+  margin: 0 1rem;
+}
+
+.footer-mid ul .fa{
+  padding: 0.7rem 0.8rem;
+  border: 3px solid #ddd;
+  border-radius: 100%;
+}
+
+.footer-mid ul .fa:hover{
+  background-color: white;
+  color: brown;
+  border-color:tomato ;
+  transition-duration: 0.4s;
+}
+
+.contact-cv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-link a{
+  text-decoration: none;
+}
+
+.contact-cv .both{
+  padding: 0.9rem 1.7rem;
+  background: brown;
+  color: wheat;
+  font-size: 1.1rem;
+  outline: none;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 0.4rem;
+  font-weight: 600;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact-cv .both:hover{
+  background-color: #ffff00d5;
+  color: rgb(27, 20, 20);
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+/** Footer Starts Ends **/
+
+@media(max-width:850px){
+  html{
+    font-size: 14px;
+  }
+
+  
+  #toggleicon{
+    display: block;
+  }
+
+  .all-nav {
+    
+    position: relative;
+  }
+
+  #sh_ul{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: #5a5747;
+    border-radius: 3px;
+    padding: 1rem 0;
+    display: none;
+    margin: 0;
+  }
+
+  #sh_ul li{
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    
+  }
+
+
+  #sh_ul li a{
+    display: block;
+    margin: 0.2rem 0;
+  }
+
+
+
+}
+
+@media(max-width:730px){
+  .personal-mid {
+    
+  flex-wrap: wrap;
+}
+
+.personal-mid .pic {
+  width: 100%;
+  display: flex;
+ 
+  overflow: hidden;
+}
+
+.personal-mid .pic img {
+  width: 100%;
+  border-radius: 25px;
+  
+  display: block;
+}
+
+.personal-mid .info {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+}
+
+@media(max-width:650px){
+  .contact-cv .both {
+    padding: 0.7rem 1.6rem;
+    background: brown;
+  
+  }
+
+  .contact-cv {
+    margin-top: 0.8rem;
+  }
+
+}
+
+@media(max-width:530px){
+
+  html{
+    font-size: 13px;
+  }
+
+  
+  .sampleRaw {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .sampleRaw .main {
+    width: 100%;
+    padding: 6%;
+    background-color: brown;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1.5rem 0;
+  }
+}
+
+@media(max-width:410px){
+
+  .my-details h1 {
+    font-size: 2rem;
+    
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+  }
+
+  .more-details h3 {
+    font-size: 1.4rem;
+   
+   font-weight: 500;
+  }
+
+  .work-experience .experties h2 {
+    
+   font-size: 1.7rem;
+  }
+
+  .details-parent .left h4 {
+   
+    font-size: 0.9rem;
+    
+  }
+
+  .color-parent {
+    height: 1vh;
+  }
+
+  .contact-cv {
+    margin-top: 2.4rem;
+}
+
+  .contact-cv .both {
+    padding: 0.5rem 0.8rem;
+  
+  }
+
+}
+
+@media(max-width:315px){
+  .details-parent {
+    flex-wrap: wrap;
+  }
+
+  .details-parent .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-cv {
+    flex-wrap: wrap;
+  }
+
+  .cv-link {
+  width: 95%;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  }
+
+.talk-button {
+    width: 95%;
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
